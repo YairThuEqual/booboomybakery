@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Image Slider</title>
+     <link rel="stylesheet" href="style/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+</head>
+
+<body>
+     <header id="header" class="header">
+          <div class="container">
+               <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+               </div>
+               <nav class="nav">
+                    <button class="nav-toggle" id="nav-toggle">
+                         <span class="bar"></span>
+                         <span class="bar"></span>
+                         <span class="bar"></span>
+                    </button>
+                    <ul class="nav-list" id="nav-list">
+                         <li class="nav-item"><a href="#">Home</a></li>
+                         <li class="nav-item"><a href="#aboutus">About</a></li>
+                         <li class="nav-item"><a href="#menu">Menu</a></li>
+                         <li class="nav-item"><a href="#contact">Contact</a></li>
+                    </ul>
+               </nav>
+          </div>
+     </header>
+
+     <section id="section-one">
+          <div class="slider">
+               <div class="wrapper">
+                    <div class="slide">
+                         <img src="./img/slide1.jpg" alt="">
+                         <div class="text">
+                              <h2>French Patisserie</h2>
+                              <p>Elegant pastries inspired by classic French recipes. Chic ambiance with refined, intricate dessert displays.</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="wrapper">
+                    <div class="slide">
+                         <img src="./img/slide2.jpg" alt="">
+                         <div class="text">
+                              <h2>Modern Cupcakery</h2>
+                              <p>Innovative, gourmet cupcakes with creative flavors and designs. Bright, trendy ambiance perfect for all ages.</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="wrapper">
+                    <div class="slide">
+                         <img src="./img/slide3.jpg" alt="">
+                         <div class="text">
+                              <h2>Artisanal Bakery</h2>
+                              <p>Handmade, small-batch baked goods using locally sourced ingredients. Cozy, rustic ambiance with a focus on traditional baking methods.</p>
+                         </div>
+                    </div>
+               </div>
+
+               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+               <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+     </section>
+
+     <section class="main-menu">
+          <h1>New items</h1>
+          <div class="menu">
+               <div class="menu-img">
+                    <img src="img/menu1.jpg" alt="">
+                    <div class="img-caption">
+                         <p>Heavenly Delight Cupcakes</p>
+                    </div>
+               </div>
+               <div class="menu-img">
+                    <img src="img/menu2.jpg" alt="">
+                    <div class="img-caption">
+                         <p>Rustic Sourdough Boule</p>
+                    </div>
+               </div>
+               <div class="menu-img">
+                    <img src="img/menu3.jpg" alt="">
+                    <div class="img-caption">
+                         <p>Almond Croissant</p>
+                    </div>
+               </div>
+          </div>
+
+
+          <div class="capp">
+               <div class="capp-one">
+                    <div class="capp-img">
+                         <img src="img/capp1.png" alt="">
+                    </div>
+                    <div class="capp-text">
+                         <p>A "Rustic Sourdough Boule" is a round, artisan bread with a thick, chewy crust and a tangy flavor, achieved through natural fermentation.</p>
+                    </div>
+               </div>
+               <div class="capp-two">
+                    <div class="capp-two-child">
+                         <div class="capp-text">
+                              <p>"Heavenly Delight Cupcakes" promises pure bliss in every bite.</p>
+                         </div>
+                         <div class="capp-img">
+                              <img src="img/capp2.png" alt="">
+                         </div>
+                    </div>
+               </div>
+               <div class="capp-three">
+                    <div class="capp-img">
+                         <img src="img/capp3.png" alt="">
+                    </div>
+                    <div class="capp-text">
+                         <p>"Almond Croissant" - A flaky, buttery delight filled with almond goodness.</p>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <section id="aboutus">
+          <h1>about us</h1>
+          <div class="about">
+               <div class="about-img">
+                    <img src="img/aboutus.jpg" alt="">
+               </div>
+               <div class="about-text">
+                    <ul>
+                         <li>we are a family-owned bakery offering delicious pastries, breads, and cakes made from the
+                              finest ingredients.</li>
+                         <li>Our passion for baking ensures each bite is delightful.</li>
+                         <li>From traditional recipes to innovative flavors, we commit to quality and taste.</li>
+                         <li>Whether you need a morning pastry, freshly baked bread, or a cake for a special occasion,
+                              we have it all.</li>
+                         <li>Visit us to experience the warmth and charm of our family-run bakery.</li>
+                    </ul>
+               </div>
+          </div>
+     </section>
+
+     <section id="menu">
+          <h1>menu</h1>
+          <div class="menu-post">
+               <div class="menu-head">
+                    <div class="menu-pic">
+                         <img src="img/Vanilla Dream Delight.jpg" alt="">
+                    </div>
+                    <div class="menu-cap">
+                         <p>Vanilla Dream Delight</p>
+                    </div>
+               </div>
+               <div class="menu-head">
+                    <div class="menu-pic">
+                         <img src="img/Velvet Kiss Cupcakes.jpg" alt="">
+                    </div>
+                    <div class="menu-cap">
+                         <p>Velvet Kiss Cupcakes</p>
+                    </div>
+               </div>
+               <div class="menu-head">
+                    <div class="menu-pic">
+                         <img src="img/Choco Bliss Cupcakes.jpg" alt="">
+                    </div>
+                    <div class="menu-cap">
+                         <p>Choco Bliss Cupcakes</p>
+                    </div>
+               </div>
+               <div class="menu-head">
+                    <div class="menu-pic">
+                         <img src="img/Lemon Berry Bliss.jpg" alt="">
+                    </div>
+                    <div class="menu-cap">
+                         <p>Lemon Berry Bliss</p>
+                    </div>
+               </div>
+               <div class="menu-head">
+                    <div class="menu-pic">
+                         <img src="img/Vanilla Dream Delight.jpg" alt="">
+                    </div>
+                    <div class="menu-cap">
+                         <p>Vanilla Dream Delight</p>
+                    </div>
+               </div>
+               <div class="menu-head">
+                    <div class="menu-pic">
+                         <img src="img/Velvet Kiss Cupcakes.jpg" alt="">
+                    </div>
+                    <div class="menu-cap">
+                         <p>Velvet Kiss Cupcakes</p>
+                    </div>
+               </div>
+               <div class="menu-head">
+                    <div class="menu-pic">
+                         <img src="img/Choco Bliss Cupcakes.jpg" alt="">
+                    </div>
+                    <div class="menu-cap">
+                         <p>Choco Bliss Cupcakes</p>
+                    </div>
+               </div>
+               <div class="menu-head">
+                    <div class="menu-pic">
+                         <img src="img/Lemon Berry Bliss.jpg" alt="">
+                    </div>
+                    <div class="menu-cap">
+                         <p>Lemon Berry Bliss</p>
+                    </div>
+               </div>
+               <div class="menu-head">
+                    <div class="menu-pic">
+                         <img src="img/Lemon Berry Bliss.jpg" alt="">
+                    </div>
+                    <div class="menu-cap">
+                         <p>Lemon Berry Bliss</p>
+                    </div>
+               </div>
+          </div>
+          <div class="menu-page">
+               <a href="">see more</a>
+          </div>
+     </section>
+
+     <section id="contact">
+          <h1>contact us</h1>
+          <div class="contact">
+               <div class="contact-img">
+                    <img src="img/contact.jpg" alt="">
+               </div>
+               <div class="contact-text">
+                    <h3>Boo Boo MyBakey</h3>
+                    <p>"Got a question, craving our treats, or want to place an order? Reach out to us! We love hearing
+                         from fellow pastry enthusiasts. Contact us today!"</p>
+                    <ul>
+                         <li><i class='bx bxs-phone'></i> +959763829428</li>
+                         <li><i class='bx bx-map'></i> 14, SaYaSan Ward, KaBarAye Road, BaHan Township.</li>
+                    </ul>
+                    <a href="https://www.facebook.com/" class="facebook"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://instagram.com/" class="instagram"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.youtube.com/" class="youtube"><i class='bx bxl-youtube'></i></a>
+               </div>
+          </div>
+     </section>
+
+     <footer class="footer">
+          <div class="container">
+               <div class="row">
+                    <div class="col-md-6">
+                         <h3>Boo Boo MyBakey</h3>
+                         <ul>
+                              <li><i class='bx bxs-phone'></i> +959763829428</li>
+                              <li><i class='bx bx-map'></i> 14, SaYaSan Ward, KaBarAye Road, BaHan Township.</li>
+                         </ul>
+                         <a href="https://www.facebook.com/" class="facebook"><i class='bx bxl-facebook-circle'></i></a>
+                         <a href="https://instagram.com/" class="instagram"><i class='bx bxl-instagram'></i></a>
+                         <a href="https://www.youtube.com/" class="youtube"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                    <div class="col-md-6">
+                         <h3>Opening Hours</h3>
+                         <p>Monday - Friday: 7am - 7pm</p>
+                         <p>Saturday: 8am - 6pm</p>
+                         <p>Sunday: 9am - 5pm</p>
+                    </div>
+                    <div class="col-md-6 copy">
+                         <div class="">
+                              <p class="text-center">© 2024 Boo Boo MYBAKERY. All rights reserved.</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </footer>
+
+
+     <script src="./javascript/script.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.min.js"
+          integrity="sha512-y8/3lysXD6CUJkBj4RZM7o9U0t35voPBOSRHLvlUZ2zmU+NLQhezEpe/pMeFxfpRJY7RmlTv67DYhphyiyxBRA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
